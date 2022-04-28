@@ -53,7 +53,7 @@ p {
 }
 
 .msg {
-	margin-top: 50px;
+	margin-top: 30px;
 
 	font-size: 20px;
 }
@@ -92,4 +92,25 @@ p {
 
 .restart:focus {
 	transform: scale(0.98);
+}
+
+.footer {
+	position: fixed;
+	bottom: 20px;
+}
+
+.footer-author,
+.footer .footer-author i {
+	color: #fff;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #003366;
+	font-weight: 100;
+}
+
+.footer i {
+	margin-right: 5px;
+	color: #003366;
 }
