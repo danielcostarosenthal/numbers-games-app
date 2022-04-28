@@ -106,7 +106,6 @@ recognition.addEventListener('end', () => {
 // Event listener to change language
 languageElement.addEventListener('change', (e) => {
 	changeLanguage(e.target.value)
-	console.log(recognition.lang)
 })
 
 // Event listener to restart game
